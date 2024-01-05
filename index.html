@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script language="JavaScript" type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock, paper, scissors</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <h1>Warfare Showdown!</h1>
+            <p>In this thrilling battlefield game, strategic prowess is the key to victory as you command three distinct unit types: Air units, Melee units, and Ranged units. Prepare to engage in intense battles where each unit type holds a strategic advantage over another. Harness the power of your Ranged units to rain destruction upon the skies, as they triumph over Air units. Witness the clash of swords and shields as Melee units dominate their adversaries on the ground, overpowering Ranged units. Meanwhile, watch the skies for the graceful dance of Air units, swooping down to conquer Melee units with unparalleled aerial finesse. Choose your units wisely, plan your maneuvers carefully, and master the art of unit synergy to emerge triumphant on the ever-shifting battlefield. Victory awaits those who can adapt and exploit the strengths and weaknesses of their diverse forces.</p>
+        </header>
+        <div class="hero">
+            <h2>Choose your troops!</h2>
+            <img id="ranged" src="./images/ranged.png" alt="ranged" onmouseover="onHoverRanged();" onmouseout="offHoverRanged();">
+            <img id="melee" src="./images/melee.png" alt="melee" onmouseover="onHoverMelee();" onmouseout="offHoverMelee();">
+            <img id="flying" src="./images/flying.png" alt="flying" onmouseover="onHoverFlying();" onmouseout="offHoverFlying();">
+        </div>
+        <div class="enemy">
+            <h2>The enemy doploys:</h2>
+            <img id="enemyUnit" src="./images/ranged.png" alt="ranged" width="100">
+        </div>
+    </div>
+    
+</body>
+</html>

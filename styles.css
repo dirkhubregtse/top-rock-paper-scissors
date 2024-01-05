@@ -1,0 +1,48 @@
+body{
+    background: rgb(51, 51, 51);
+    background: radial-gradient(circle, rgb(51, 51, 51) 0%, rgba(37,37,37,1) 95%);
+    color: #EFAD1B;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content:space-around;
+}
+.wrapper{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+}
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    justify-content:space-evenly
+}
+h1{
+    font-size: 80px;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero img{
+    width: 200px;
+    border: 10px solid #EFAD1B;
+}
+
+.enemy{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.enemy img{
+    margin: 0 0 0 50px;
+    border: 5px solid #EFAD1B;
+}
