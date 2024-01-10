@@ -16,7 +16,9 @@ header{
     display: flex;
     flex-direction: column;
     width: 1000px;
+    justify-content: space-around;
 }
+
 p{
     color: white;
     font-size: 15px;
@@ -25,24 +27,37 @@ p{
 h1{
     font-size: 80px;
 }
-
-
 .hero{
+    justify-content:space-around;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
 }
-
+.hero div{
+    justify-content: space-around;
+    text-align: center;
+}
 .hero img{
     width: 200px;
     border: 10px solid #EFAD1B;
 }
-
+.choises{
+    display: flex;
+    flex-direction: row;
+}
 .enemy{
     padding-top: 50px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
 }
 .enemy img{
     margin: 0 0 0 50px;
     border: 5px solid #EFAD1B;
 }
+
+.enemy .winnen{
+
+}
+

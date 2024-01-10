@@ -13,19 +13,39 @@
 <body>
 
     <div class="wrapper">
+        
         <header>
-            <h1>Warfare Showdown!</h1>
+            <!-- <h1>Warfare Showdown!</h1> -->
+            <div>
+                <img src="./images/warfare-showdown.png" alt="Warfare Showndown" width="600px">
+            </div>            
             <p>In this thrilling battlefield game, strategic prowess is the key to victory as you command three distinct unit types: Air units, Melee units, and Ranged units. Prepare to engage in intense battles where each unit type holds a strategic advantage over another. Harness the power of your Ranged units to rain destruction upon the skies, as they triumph over Air units. Witness the clash of swords and shields as Melee units dominate their adversaries on the ground, overpowering Ranged units. Meanwhile, watch the skies for the graceful dance of Air units, swooping down to conquer Melee units with unparalleled aerial finesse. Choose your units wisely, plan your maneuvers carefully, and master the art of unit synergy to emerge triumphant on the ever-shifting battlefield. Victory awaits those who can adapt and exploit the strengths and weaknesses of their diverse forces.</p>
         </header>
         <div class="hero">
-            <h2>Choose your troops!</h2>
-            <img id="ranged" src="./images/ranged.png" alt="ranged" onmouseover="onHoverRanged();" onmouseout="offHoverRanged();">
-            <img id="melee" src="./images/melee.png" alt="melee" onmouseover="onHoverMelee();" onmouseout="offHoverMelee();">
-            <img id="flying" src="./images/flying.png" alt="flying" onmouseover="onHoverFlying();" onmouseout="offHoverFlying();">
+            <div class="score">
+                <h1 id="score">Your lives 5 - 5 Enemy lives</h1>
+                <img id="winner" src="./images/win.png" alt="ranged" width="100" hidden="hidden">
+            </div>
+            <div>
+                <h2>Choose your troops!</h2>
+            </div>
+            <div class="choises">
+                <!-- <button id="rangeBtn">Range</button>
+                <button id="meleeBtn">Melee</button>
+                 <button id="flyingBtn">Flying</button> -->
+
+                <img id="ranged" src="./images/ranged.png" alt="ranged" onmouseover="onHoverRanged();" onmouseout="offHoverRanged();">
+                <img id="melee" src="./images/melee.png" alt="melee" onmouseover="onHoverMelee();" onmouseout="offHoverMelee();">
+                <img id="flying" src="./images/flying.png" alt="flying" onmouseover="onHoverFlying();" onmouseout="offHoverFlying();">
+            </div>
         </div>
         <div class="enemy">
-            <h2>The enemy doploys:</h2>
+            <h2>The enemy deploys:</h2>
             <img id="enemyUnit" src="./images/ranged.png" alt="ranged" width="100">
+            <!-- <img id="enemyUnit" src="./images/lose.png" alt="ranged" width="100"> -->
+        </div>
+        <div class="winner">
+            
         </div>
     </div>
     
